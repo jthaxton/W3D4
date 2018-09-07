@@ -12,6 +12,7 @@ class Poll < ApplicationRecord
   
   has_one :author
     primary_key: :id,
-    foreign_key: 
+    foreign_key: :
+    class_name: :User
   
 end
